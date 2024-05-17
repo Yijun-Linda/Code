@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{mathptmx}
+\usepackage{fontspec}
+\setmainfont{Calibri}[
+  Path=./,
+  Extension=.ttf,
+  UprightFont=*,
+  BoldFont=*-b,
+  ItalicFont=*-i,
+  BoldItalicFont=*-z,
+]
+\usepackage{geometry}
+\usepackage[normalem]{ulem}
+\newgeometry{left=1cm, right=1cm, top=1cm, bottom=1cm}\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\definecolor{oinkblue}{rgb}{.08,.34,.5}
+\hypersetup{
+    colorlinks=true,   
+    allcolors=oinkblue,
+}
+\makeatletter
+\begingroup
+  \catcode`\$=6 %
+  \catcode`\#=12 %
+  \gdef\href@split$1#$2#$3\\$4{%
+    \hyper@@link{$1}{$2}{\uline{$4}}% or \underline
+    \endgroup
+  }%
+\endgroup
+
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Yijun Zhang} % Your name
+\address{Shanghai/Singapore | \href{mailto:yijun.zhang19@hotmail.com}{yijun.zhang19@hotmail.com} | (+86)150-070-2646 (WeChat)| \href{https://www.linkedin.com/in/yijunzhang99/}{LinkedIn}} % Your phone number and email
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\makebox[7cm][l]{\bf Cranfield University}{\textbf{\textit{MSc Management and Corporate Sustainability}}}\hfill{Sep 2022 - Dec 2023}}\\
+\vspace{0.1cm}{Collaborate with 10 nationalities as a team player; Graduated with Merit~ \hfill {Ranking: 11/196}}\\
+% \vspace{0.1cm}
+{\makebox[7 cm][l]{\bf Shanghai DianJi University}{\textbf{\textit{Bachelor of Business Administration in Finance}}}\hfill{Sep 2017 - Jun 2021}}\\
+% \\\leavevmode\rlap{{\bf Shanghai DianJi University}}\hfill
+%   {\bf Bachelor of Business Administration in Finance}\hfill\llap{Sep 2017 - Jun 2021}\\
+% \\{\bf Shanghai DianJi University} \hfill {Sep 2017 - Jun 2021} 
+% \\ Bachelor of Business Administration in Finance
+{Top 5\% Scholarship; Member of Green Team, Student Union \hfill {GPA: 3.89/4.0}}
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Sustainability Experience}
+
+\begin{rSubsection}{\makebox[7cm][l]{LinkedIn - Social Media Platform} \textbf{\textit{Content Creator - Sustainability-driven Topic}}}{Jan 204 - present}{}{}
+\item Achieved 45,000 views on posts about sustainability and had over 30 audience engagements and discussions on average.
+\item  I was invited to participate in an event hosted by the London School of Economics due to the posts I've written.
+\end{rSubsection}
+
+\begin{rSubsection}{\makebox[7cm][l]{NHS Health Innovation - Kent Surrey}\textbf{\textit{Sustainability Coordinator}}}{June 2023 - Dec 2023}{}{}
+\item Held weekly meetings with key stakeholders, Government entities and NHS teams, to ensure project alignment and success.
+\item Adapted to legislative changes related to UK Net Zero requirements to meet legal compliance.
+\item  Attended two conferences with over 200+ attendants, matched with 9 innovators, and successfully supported Ethicon J\&J MedTech to join the NHS network.
+\end{rSubsection}
+
+\begin{rSubsection}{\makebox[7cm][l]{NHS Health Innovation, Oxford}\textbf{\textit{Researcher - MSc Thesis - Net Zero Project}}}{March 2023 - June 2023}{}{}
+\item Planned and interviewed 10 CEOs and executives, to dive deeply into the value chain and supply Chain.
+\item Conducted in-depth interviews and surveys, accumulating over 300 pages of raw data across eight sectors.
+\item Prepared progress reports weekly/monthly, maintaining clear communication of project statuses and achievements.
+\end{rSubsection}
+
+\begin{rSubsection}{\makebox[7cm][l]{Cranfield University, UK}\textbf{\textit{Studying ESG, CSR theory and Social Responsibility}}}{Sep 2022 - Nov 2023}{}{}
+\item Attended Edie 2023 as the only academic representative from Cranfield University.
+\item Collaborated with 3 diverse teams on a project-based consulting project, focusing on sustainability, which resulted in 6 group presentations and reports.
+\item Certifications: GRI Standards Sustainability Reporting; Awards: First Prize in the Biodiversity Consulting Project.
+\item Member of ICRS | The Institute of Corporate Responsibility \& Sustainability.
+\end{rSubsection}
+
+\end{rSection}
+
+
+\begin{rSection}{Leadership}
+\begin{rSubsection}{\makebox[7cm][l]{BorgWarner, China}\textbf{\textit{Supplier Support Intern}}}{Feb 2021 - June 2021}{}{} 
+\item Achieved a 45\% PPAP approval rate boost by collaborating with engineers for timely product entry into the production line.
+\item Delivered on average 20 document control compliance tasks a day with 100\% accuracy by collaborating with 15 engineers.
+\end{rSubsection}
+
+\begin{rSubsection}{\makebox[7cm][l]{ Grand Central Hotel Shanghai}\textbf{\textit{Finance Manager Intern}}}{June 2020 - August 2020}{}{} 
+\item Contributed to aligning financial strategies with organizational goals, enhancing overall fiscal performance.
+\item Ensured adherence to annual targets through meticulous budget management and performance evaluation.
+\end{rSubsection}
+
+\begin{rSubsection}{\makebox[7cm][l]{China Shanghai International Arts Festival}\textbf{\textit{Project Coordinator - ART SPACE}}}{July 2019 - Nov 2019}{}{} 
+\item Communicated and coordinated with project leads for 15 projects.
+\item Supported ongoing art exhibition projects, mainly the Zhang Garden Project, and introduced a reservation mini program, enhancing efficiency in visitor ticket exchanges.
+\end{rSection}
+
+\begin{rSubsection}{\makebox[7cm][l]{Internet+ Entrepreneurship Competition}\textbf{\textit{Project Lead - IoT Bathing Machine}}}{Feb 2018 - June 2018}{}{}
+\item Created financial models for business operations, and formulated marketing strategies.
+\item  Sustainable Solution: Integrated system design approaches (TRIZ, QFD) and developed practical solutions
+\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages \ & ChatGPT, Python, LaTex \\
+Languages \ & English, Mandarin Chinese, Shanghainese; Basic Korean and I would like to learn French 
+\end{tabular}
+
+\end{rSection}
+\end{document}
